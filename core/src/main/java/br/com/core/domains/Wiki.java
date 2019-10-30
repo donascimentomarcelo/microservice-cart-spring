@@ -47,12 +47,4 @@ public class Wiki extends ObjectBase {
 	public void setClient(Client client) {
 		this.client = client;
 	}
-
-	/**
-	public static Wiki fromWiki(WikiDTO wikiDto) {
-		Wiki wiki = new Wiki();
-		wiki.setTitle(wikiDto.getTitle());
-		return wiki;
-	}
-	**/
 }

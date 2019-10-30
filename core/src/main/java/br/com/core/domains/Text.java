@@ -37,12 +37,4 @@ public class Text extends ObjectBase {
 	public void setWiki(Wiki wiki) {
 		this.wiki = wiki;
 	}
-
-	/**
-	public static Text fromText(TextDTO textDto) {
-		Text text = new Text();
-		text.setMessage(textDto.getMessage());
-		return text;
-	}
-	**/
 }
