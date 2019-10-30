@@ -9,7 +9,7 @@
 
   <artifactId>wiki</artifactId>
   <packaging>pom</packaging>
-  <name>Wiki</name>
+  <name>wiki</name>
   <description>Any description</description>
   
   <dependencies>
