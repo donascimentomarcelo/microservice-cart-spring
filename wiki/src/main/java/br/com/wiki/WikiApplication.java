@@ -2,12 +2,12 @@ package br.com.wiki;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@ComponentScan({"br.com.core.domains"})
-@ComponentScan({"br.com.core.enums"})
-@ComponentScan({"br.com.core.repositories"})
+@EntityScan({"br.com.core.domains"})
+@EnableMongoRepositories({"br.com.core.repositories"})
 public class WikiApplication {
     public static void main( String[] args ) {
     	SpringApplication.run(WikiApplication.class, args);
